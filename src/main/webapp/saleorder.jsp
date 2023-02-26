@@ -50,7 +50,8 @@ String projectarticat = resource.getString("project.artifact");
 		<nav id="nav">
 			<ul class="links">
 				<li class="active"><a href="saleorder.jsp">Sele Order</a></li>
-				<li><a href="generic.jsp">Sale Report</a></li>
+				<li><a href="salereport.jsp">Sale Report</a></li>
+				<li><a href="account.jsp">Account</a></li>
 				<!-- <li><a href="elements.jsp">Elements Reference</a></li> -->
 			</ul>
 		</nav>

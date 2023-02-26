@@ -74,7 +74,11 @@
 	<script src="assets/js/main.js"></script>
 	<script type="text/javascript">
   $(function(){
-	  
+	  var user=localStorage.getItem("ozoduserprofileUserId");
+		if(user != undefined || user != "null" || user != ""){
+			window.location ="saleorder.jsp";
+		}
+		
 	  $("#loginbutton").click(function(e){
 			 e.preventDefault();
 		        var formData = {
